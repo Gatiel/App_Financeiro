@@ -1,7 +1,7 @@
 USERNAME = 'root'
 PASSWORD = ''
 SERVER   = 'localhost'
-DB = 'gerenciiemnto_contas'
+DB = 'gerenciamento_contas'
 
 SQLALCHEMY_DATABASE_URI = f'mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
 SQLALCHEMY_TRACK_MODIFICATIONS = True
